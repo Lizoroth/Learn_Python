@@ -1,3 +1,4 @@
 Cadena="Hello World"
 print(Cadena)
-print(Cadena.isUpper())
+print(Cadena.isupper())
+print(Cadena.isnumeric())
