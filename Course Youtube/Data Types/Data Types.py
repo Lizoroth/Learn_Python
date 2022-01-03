@@ -13,3 +13,4 @@ print(tiposDatosVariables, type(tiposDatosVariables))
 tiposDatosVariables = "abcde"
 
 print(tiposDatosVariables, type(tiposDatosVariables))
+
