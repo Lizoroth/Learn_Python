@@ -10,3 +10,9 @@ print(var4)
 
 var5=r"c:\nombre\nadie sabe"
 print(var5)
+print ("")
+var4="""esto es un texto
+separado entre varias
+lineas para probar
+la trple comilla"""
+print(var4)
