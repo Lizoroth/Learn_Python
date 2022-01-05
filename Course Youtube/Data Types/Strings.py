@@ -16,3 +16,6 @@ separado entre varias
 lineas para probar
 la trple comilla"""
 print(var4)
+
+
+print("algo"*2)
