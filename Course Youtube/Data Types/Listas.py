@@ -1,3 +1,4 @@
+"""
 primeraLista=["cero",9,3.14,False,5,8,"seis"]
 #print(primeraLista[-3])# elemento contado desde el final de la lista
 #print(primeraLista[2]) # elemento contado desde la primera posición
@@ -22,3 +23,21 @@ segundaLista=["aaaa","eeeeeeeee"]
 
 terceraLista = primeraLista+segundaLista
 print(terceraLista[:])
+"""
+
+miLista = ["almacenar",8,"a",[1,2,3],True,(0,0,1),85.7,"a","w"]
+# cuales de estos elementos pertenecen a ella  85.7 - 0 - True - [True] - [(0,0,1)] - 85 - a - [1,2,3]
+
+# cómo obtener el indice o posición del elemento 0.0.1
+print(miLista)
+
+print(miLista.index((0,0,1)))
+
+#eliminar el último elemento 
+miLista.pop()
+print(miLista)
+#saber cuantas veces aparece "a"
+
+miLista.remove("a")
+print(miLista.count("a"))
+print(miLista)
