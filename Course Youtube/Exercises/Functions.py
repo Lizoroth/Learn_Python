@@ -30,7 +30,7 @@ def inNumeros(aux):
       case 2: print(restaNumeros(x,z)) 
       case 3: print(divideNumeros(x,z))
       case 4: print(multiplicaNumeros(x,z))    
-
+#aplicación para realizar distintas operaciones aritmeticas a dos numeros
 while aux != 0:
   
   clearConsole()
@@ -42,9 +42,13 @@ while aux != 0:
   print("4 - Multiplicación")
   print("0 - Salir")
   aux = int(input("Ingrese Opción"))
-  inNumeros(aux)
+  #inNumeros(aux)
+
+  #aplicación para imprimir n cantidad de nros primos
 
 
 
+      
 
 
+  #aplicacion valida rut
